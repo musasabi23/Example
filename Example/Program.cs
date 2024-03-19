@@ -152,3 +152,5 @@ if (player1PosX == 2)
         Console.WriteLine("仕掛け解除");
     }
 }
+
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
