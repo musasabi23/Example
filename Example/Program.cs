@@ -154,3 +154,4 @@ if (player1PosX == 2)
 }
 
 
+Console.WriteLine("テストコミット１");
