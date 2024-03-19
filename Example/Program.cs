@@ -155,3 +155,5 @@ if (player1PosX == 2)
 
 
 Console.WriteLine("テストコミット１");
+
+Console.WriteLine("テストコミット２");
