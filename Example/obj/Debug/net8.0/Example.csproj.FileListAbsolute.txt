@@ -26,3 +26,4 @@ C:\Users\ristr\source\repos\c#勉強用\Example\Example\obj\Debug\net8.0\refint\
 C:\Users\ristr\source\repos\c#勉強用\Example\Example\obj\Debug\net8.0\Example.pdb
 C:\Users\ristr\source\repos\c#勉強用\Example\Example\obj\Debug\net8.0\Example.genruntimeconfig.cache
 C:\Users\ristr\source\repos\c#勉強用\Example\Example\obj\Debug\net8.0\ref\Example.dll
+C:\Users\ristr\source\repos\c#勉強用\Example\Example\obj\Debug\net8.0\Example.sourcelink.json
