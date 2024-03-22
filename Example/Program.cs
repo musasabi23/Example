@@ -157,3 +157,154 @@ if (player1PosX == 2)
 Console.WriteLine("テストコミット１");
 
 Console.WriteLine("テストコミット２");
+
+if (player1PosX == 2 && player2PosX == 6)
+{
+    Console.WriteLine("仕掛け解除");
+}
+
+//問題3-8
+
+int a_3_8 = 5;
+int b_3_8 = 9;
+
+if (a_3_8 == 5 || b_3_8 == 2)
+{
+    Console.WriteLine("仕掛け解除");
+}
+//問題3-9
+if ((a_3_8 == 5 || b_3_8 == 2) || (a_3_8 == 2 || b_3_8 == 5))
+
+{
+    Console.WriteLine("仕掛け解除");
+}
+
+//309
+int playerPosY = 4;
+//プレイヤーが0以上なら走る
+//それ以外は泳ぐ
+if (playerPosY >= 0)
+{
+    Console.WriteLine("走る");
+}
+else
+{
+    Console.WriteLine("泳ぐ");
+}
+
+//問題3-10
+int num = 2;
+if (num >= 3)
+{
+    Console.WriteLine("勝ち");
+}
+else
+{
+    Console.WriteLine("負け");
+
+}
+
+//S10
+int hp = 100;
+int mapType = 2;
+//地形によってHPの値を増減する
+if (mapType == 1)
+{
+    hp += 10;  //回復
+}
+else if (mapType == 2)//毒
+{
+    hp -= 5;
+}
+else if (mapType == 3)//罠
+{
+    hp = 0;
+}
+else //上記以外は通常
+{
+    Console.WriteLine("HPの変化なし");
+}
+
+Console.WriteLine("HP=" + hp);
+
+//3-4繰り返し処理
+
+//処理を5回繰り返す
+for (int i = 0; i < 5; i++)
+{
+    Console.WriteLine("攻撃");
+}
+
+//問題3-12
+for (int i = 0; i < 3; i++)
+{
+    Console.WriteLine("逃走！");
+}
+
+//list 3-12
+//参加者の点呼
+
+for (int i = 1; i < 4; i++)
+{
+    Console.WriteLine(i + "番！");
+}
+
+//問題3-13
+
+for (int i = 2; i < 6; i++)
+{
+    Console.WriteLine(i);
+}
+
+//問題3-14
+for (int i = 0; i < 5; i++)
+{
+    if (i % 2 == 0)
+    {
+        Console.WriteLine(i);
+    }
+}
+
+//正解
+for (int i = 0; i < 5; i += 2)
+{
+    Console.WriteLine(i);
+}
+
+//list3-13
+//for文のカウントダウン
+for (int i = 3; i > 0; i--)
+{
+    Console.WriteLine(i);
+}
+Console.WriteLine("スタート");
+
+//問題3-15
+for (int i = 10; i >= 0; i--)
+{
+    Console.WriteLine(i);
+}
+
+//list3-14a while文の使用例
+int playerPosX314 = 5;
+int missilePosX314 = 15;
+/*プレイヤーとミサイルの位置が等しくなければ
+ ミサイルの移動を繰り返す*/
+while (playerPosX314 != missilePosX314)
+{
+    Console.WriteLine("missile at" + missilePosX314);
+    missilePosX314--; //missileを左に動かす
+}
+
+Console.WriteLine("Hit");
+
+//問題3-16
+int i316 = 10000;
+int i316_2 = 0;
+
+while (i316 > 100)
+{
+    i316 = i316 / 2;
+    i316_2++;
+}
+Console.WriteLine(i316_2 + "回");
