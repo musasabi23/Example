@@ -308,3 +308,63 @@ while (i316 > 100)
     i316_2++;
 }
 Console.WriteLine(i316_2 + "回");
+
+//list3-14b break文の使用例
+
+int playerPosX314b = 5;
+int missilePosX314b = 15;
+//常にループ処理
+while (true)
+{
+    //プレイヤーとミサイルが衝突したらwhil文を抜ける
+    if (playerPosX314b == missilePosX314b)
+    {
+        break;
+    }
+
+    Console.WriteLine("missile at " + missilePosX314b);
+    missilePosX314b--;
+}
+Console.WriteLine("Hit");
+
+//問題3-17
+int a317 = 0;
+int b317 = 1;
+
+while (true)
+{
+    a317 += b317;
+    Console.WriteLine(a317);
+
+    if (a317 >= 500)
+    {
+        break;
+    }
+    
+    b317++;
+}
+
+//list3-15 配列の使用例
+
+float[] weights; //配列の変数を宣言
+weights 
+    = new float[7]; //配列の要素数を決める
+
+//配列の要素に値を代入する
+weights[0] = 41.2f;
+weights[1] = 42.5f;
+weights[2] = 44.9f;
+weights[3] = 43.2f;
+weights[4] = 45.1f;
+weights[5] = 43.2f;
+weights[6] = 42.7f;
+
+//配列を全て表示する
+for (int i = 0; i < 7; i++)
+{
+    Console.WriteLine(weights[i]);
+}
+
+
+
+
