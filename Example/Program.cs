@@ -365,6 +365,39 @@ for (int i = 0; i < 7; i++)
     Console.WriteLine(weights[i]);
 }
 
+//list3-16
+//配列を初期化する
+float[] weights316 = { 41.2f, 42.5f, 44.9f, 43.2f, 45.1f,
+                       43.2f, 42.7f, 41.5f, 41.4f, 41.9f };
+//「変数名.Length」を使って全要素にアクセス
+for (int i = 0; i < weights316.Length; i++)
+{
+    Console.WriteLine(weights316[i]);
+}
+
+//list3-17
+float[] weights317 = { 41.2f, 42.5f, 44.9f, 43.2f,
+                       45.1f, 43.2f, 42.7f };
+float sum317 = 0.0f; //一週間の体重の合計を入れる変数
+//1週間文の体重の合計
+for (int i = 0; i < weights317.Length; i++) 
+{
+    sum317 += weights317[i];
+}
+//1週間の体重の平均値
+float average317 = sum317 / weights317.Length;
+Console.WriteLine("平均値は" + average317 + "です");
+
+//問題3-18
+foreach (float w318 in weights317)
+{
+    float w318ander43 = w318;
+    if (w318ander43 <= 43.0f)
+    {
+        Console.WriteLine(w318ander43);
+    }
+
+}
 
 
 

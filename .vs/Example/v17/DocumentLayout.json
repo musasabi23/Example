@@ -14,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -33,14 +33,18 @@
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ristr\\source\\repos\\c#\u52C9\u5F37\u7528\\Example\\Example\\Program.cs",
               "RelativeDocumentMoniker": "Example\\Program.cs",
-              "ToolTip": "C:\\Users\\ristr\\source\\repos\\c#\u52C9\u5F37\u7528\\Example\\Example\\Program.cs*",
-              "RelativeToolTip": "Example\\Program.cs*",
-              "ViewState": "AQIAAFoBAAAAAAAAAAAowF0BAAAIAAAA",
+              "ToolTip": "C:\\Users\\ristr\\source\\repos\\c#\u52C9\u5F37\u7528\\Example\\Example\\Program.cs",
+              "RelativeToolTip": "Example\\Program.cs",
+              "ViewState": "AQIAAHkBAAAAAAAAAAAmwIcBAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-15T09:47:26.259Z",
               "EditorCaption": ""
