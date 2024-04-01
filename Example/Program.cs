@@ -399,5 +399,108 @@ foreach (float w318 in weights317)
 
 }
 
+//list3-18
+void Shop318()
+{
+    Console.WriteLine("いらっしゃいませ！");
+}
+
+Shop318();
+
+//問題3-19
+void Thankyou()
+{
+    Console.WriteLine("ありがとうございました！");
+}
+
+Thankyou();
+
+//list3-19
+void Shop319(string itemName)
+{
+    Console.WriteLine("いらっしゃいませ！");
+    if (itemName == "薬草")
+    {
+        Console.WriteLine(itemName + "は100円です");
+    }
+    else if (itemName == "棍棒")
+    {
+        Console.WriteLine(itemName + "1500円です");
+    }
+    else
+    {
+        Console.WriteLine("売り切れです");
+    }
+}
+
+Shop319("薬草");
+
+//問題3-20
+void ShowEvenOrOdd (int num320)
+{
+    if ((num320 % 2) == 0)
+    {
+        Console.WriteLine("偶数です");
+    }
+    else
+    {
+        Console.WriteLine("奇数です");
+    }
+}
+
+ShowEvenOrOdd(19);
+
+//list3-20
+//商品名を引数、戻り値は商品の値段
+int Shop320(string itemName320)
+{
+    Console.WriteLine("いらっしゃいませ！");
+    int price320 = 0;
+    if (itemName320 == "薬草")
+    {
+        Console.WriteLine(itemName320 + "は100円です");
+        price320 = 100;
+    }
+    else if (itemName320 == "万能薬")
+    {
+        Console.WriteLine(itemName320 + "は500円です");
+        price320 = 500;
+    }
+    else if (itemName320 == "棍棒")
+    {
+        Console.WriteLine(itemName320 + "は1500円です");
+        price320 = 1500;
+    }
+    else
+    {
+        Console.WriteLine("売り切れです");
+        price320 = 0;
+    }
+    //引数に対応する商品の値段を返す
+    return price320;
+}
+
+int mony320 = 2500;
+Console.WriteLine("所持金は" + mony320 + "円です");
+int price320 = Shop320("薬草");
+mony320 -= price320;
+Console.WriteLine("所持金は" + mony320 + "円です");
+
+//問題3－21
+int price321 = Shop320("万能薬");
+mony320 -= price321;
+Console.WriteLine("所持金は" + mony320 + "円です");
+
+//問題3-22
+float CalcAverage(int num3221, int num3222, int num3223)
+{
+    float answer322 = (num3221 + num3222 + num3223) / 3.0f;
+    return answer322;
+}
+
+float ave322 = CalcAverage(13, 7, 10);
+Console.WriteLine("平均値は" + ave322 + "です");
 
 
+
+    
